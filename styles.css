@@ -1,0 +1,69 @@
+@media (max-width: 600px) {
+  .facet_sidebar {
+    display: none;
+  }
+}
+
+body,
+header {
+  font-family: "Nunito", sans-serif;
+  background-color: #1e2019;
+  padding: 15px;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  color: #f2e8cf;
+  text-transform: capitalize;
+  font-size: 2em;
+}
+
+#projects {
+  display: flex;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+#projects > * {
+  margin: auto;
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  position: relative;
+  border-radius: 10px;
+  background-color: #587b7f;
+}
+
+.project-tile {
+  text-align: center;
+  font-size: 1.1em;
+  color: #f2e8cf;
+}
+
+.project-tile img {
+  height: 55px;
+  width: 55px;
+}
+
+#navbar {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+  position: fixed;
+  left: 0;
+  top: 10px;
+  width: 100%;
+}
+
+nav a:link,
+a:visited {
+  text-decoration: none;
+  color: #f2e8cf;
+  background-color: #fa8334;
+  font-size: 18px;
+  border: #f2e8cf;
+  padding: 10px 15px;
+  border-radius: 12px;
+}
